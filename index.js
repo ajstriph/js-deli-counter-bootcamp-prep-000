@@ -13,8 +13,8 @@ function nowServing (deliLine) {
   };
 }
 
-function currentLine(katzDeliLine){
-  if (katzDeliLine === 0){
+function currentLine(number){
+  if (number === 0){
     return "The line is currently empty.";
   }
   else {
