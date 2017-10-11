@@ -1,17 +1,14 @@
-function takeANumber(katzDeliLine, name){
+var katzDeli = [];
+function takeANumber(katzDeli, name){
   var katzDeliLine = [];
-  if (katzDeliLine.length==0){
-    katzDeliLine.push(name);
+  var i = 0;
+  while (katzDeli > 0){
+    katzDeli.push(name)
+    return `Welcome, ${name}. You are currently number ${katzDeli} in line.`;
   }
-  else (var i = 0; i < katzDeliLine.length; i++){
-    if(katzDeliLine[i] == undefined){
-        katzDeliLine[i]=name;
-        return katzDeliLine;
-    }
-  }
+
+
 }
-
-
 function nowServing (katzDeliLine) {
   if (katzDeliLine >= 1){
       return `Currently serving ${name}.`;
