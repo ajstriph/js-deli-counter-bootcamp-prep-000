@@ -1,13 +1,13 @@
-function takeANumber(katzDeli, name){
-  var katzDeliLine = [];
-  var i = 0;
-  for (var i =0; i < katzDeliLine.length; i++){
-    katzDeli.push(name);
-  }
-  while (katzDeli > 0){
-    return `Welcome, ${name}. You are currently number ${i} in line.`;
-  }
-}
+// function takeANumber(katzDeli, name){
+//   var katzDeliLine = [];
+//   var i = 0;
+//   for (var i =0; i < katzDeliLine.length; i++){
+//     katzDeli.push(name);
+//   }
+//   while (katzDeli > 0){
+//     return `Welcome, ${name}. You are currently number ${i} in line.`;
+//   }
+// }
 
 function nowServing (deliLine) {
   if (deliLine == 0){
