@@ -8,7 +8,7 @@ function nowServing (deliLine) {
     return `There is nobody waiting to be served!`;
   }
   else {
-    line.shift(name);
+    deliLine.shift(name);
     return `Currently serving ${name}.`;
   };
 }
