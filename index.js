@@ -4,12 +4,12 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing (katzDeliLine) {
-  if {}//There are poeple in line, return katzDeliLine.shift();//
+  if (){}//There are poeple in line, return katzDeliLine.shift();//
   else {} // return "There is nobody waiting to be served //"
 }
 
 function currentLine(katzDeliLine){
-  if {}// There are people in the line, return "The line is currently: [i]name, [i]name"//
+  if (){}// There are people in the line, return "The line is currently: [i]name, [i]name"//
   else {}// return "The line is currently empty"//
 
 }
