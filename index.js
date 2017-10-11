@@ -2,13 +2,14 @@ var katzDeli = [];
 function takeANumber(katzDeli, name){
   var katzDeliLine = [];
   var i = 0;
-  while (katzDeli > 0){
-    katzDeli.push(name)
-    return `Welcome, ${name}. You are currently number ${katzDeli} in line.`;
+  for (var i =0; i < katzDeliLine.length; i++){
+    katzDeli.push(name);
   }
-
-
+  while (katzDeli > 0){
+    return `Welcome, ${name}. You are currently number ${i} in line.`;
+  }
 }
+
 function nowServing (katzDeliLine) {
   if (katzDeliLine >= 1){
       return `Currently serving ${name}.`;
