@@ -1,4 +1,3 @@
-var katzDeli = [];
 function takeANumber(katzDeli, name){
   var katzDeliLine = [];
   var i = 0;
@@ -10,12 +9,13 @@ function takeANumber(katzDeli, name){
   }
 }
 
-function nowServing (katzDeliLine) {
-  if (katzDeliLine >= 1){
-      return `Currently serving ${name}.`;
+function nowServing (deliLine) {
+  if (deliLine == 0){
+      return "There is nobody waiting to be served.";
   }
   else {
-      return `There is nobody waiting to be served.`;
+      deliLine.shift();
+      return `Currently serving ${deliLine[0]}.`;
   }
 }
 
