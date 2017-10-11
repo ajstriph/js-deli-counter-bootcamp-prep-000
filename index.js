@@ -11,17 +11,11 @@
 
 function takeANumber (line, name){
   line.push(name);
-  return `Welcome, ${name}. You are currently number ${line.length} in line.`;
+  return `Welcome, ${name}. You are number ${line.length} in line.`;
 };
 
-function nowServing (deliLine) {
-  if (deliLine == 0){
-      return "There is nobody waiting to be served.";
-  }
-  else {
-      deliLine.shift();
-      return `Currently serving ${deliLine[0]}.`;
-  }
+function nowServing (line) {
+
 }
 
 function currentLine(katzDeliLine){
