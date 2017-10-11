@@ -1,7 +1,7 @@
 // function takeANumber(katzDeli, name){
 //   var katzDeliLine = [];
 //   var i = 0;
-//   for (var i =0; i < katzDeliLine.length; i++){
+//   for (var i =0; i < line.length; i++){
 //     katzDeli.push(name);
 //   }
 //   while (katzDeli > 0){
@@ -9,9 +9,9 @@
 //   }
 // }
 
-function takeANumber (){
-
-
+function takeANumber (line, name){
+  line.push(name);
+  return `Welcome, ${name}. You are currently number ${line.length} in line.`;
 };
 
 function nowServing (deliLine) {
