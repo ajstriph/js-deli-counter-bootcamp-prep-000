@@ -3,13 +3,13 @@ function takeANumber (line, name){
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 };
 
-function nowServing (deliLine, name) {
+function nowServing (deliLine) {
   if (deliLine = []){
     return `There is nobody waiting to be served!`;
   }
   else {
     deliLine.shift(name);
-    return `Currently serving ${name}.`;
+    return `Currently serving ${deliLine.shift()}.`;
   };
 }
 
