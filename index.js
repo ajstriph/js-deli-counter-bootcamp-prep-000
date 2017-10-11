@@ -3,7 +3,7 @@ function takeANumber (line, name){
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 };
 
-function nowServing (deliLine) {
+function nowServing (deliLine, name) {
   if (deliLine = []){
     return `There is nobody waiting to be served!`;
   }
